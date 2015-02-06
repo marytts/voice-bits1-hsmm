@@ -2,12 +2,3 @@ apply plugin: 'de.dfki.mary.voicebuilding'
 
 group 'de.dfki.mary'
 version '5.1.2'
-
-voice {
-    name 'bits1-hsmm'
-    language 'de'
-    gender 'female'
-    type 'hsmm'
-    description 'A female German hidden semi-Markov model voice, built from voice recordings provided by the BITS project at the Bavarian Archive of Speech Signals'
-    samplingRate 16000
-}
