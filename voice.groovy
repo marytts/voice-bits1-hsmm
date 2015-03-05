@@ -1,6 +1,8 @@
 voice {
     name = 'bits1-hsmm'
-    language = 'de'
+    locale {
+        language = 'de'
+    }
     gender = 'female'
     type = 'hsmm'
     description = 'A female German hidden semi-Markov model voice, built from voice recordings provided by the BITS project at the Bavarian Archive of Speech Signals'
