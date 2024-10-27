@@ -1,3 +1,5 @@
+[![CI](https://github.com/marytts/voice-bits1-hsmm/actions/workflows/main.yml/badge.svg)](https://github.com/marytts/voice-bits1-hsmm/actions/workflows/main.yml)
+
 # voice-bits1-hsmm
 
 A female German hidden semi-Markov model voice, built from voice recordings provided by the [BITS](http://www.phonetik.uni-muenchen.de/forschung/BITS/) project at the [Bavarian Archive of Speech Signals](http://www.bas.uni-muenchen.de/)
