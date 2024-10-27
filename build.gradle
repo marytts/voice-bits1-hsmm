@@ -1,3 +1,19 @@
+buildscript {
+    repositories {
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name 'DFKI-MLT'
+                    url 'https://raw.githubusercontent.com/DFKI-MLT/Maven-Repository/main'
+                }
+            }
+            filter {
+                includeGroup 'de.dfki.lt.jtok'
+            }
+        }
+    }
+}
+
 plugins {
     id 'de.dfki.mary.voicebuilding-base' version '5.5-SNAPSHOT'
 }
